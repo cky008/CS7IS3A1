@@ -22,6 +22,8 @@ Kaiyu Chen - 20100199 - chenka@tcd.ie
 
    ```cmd
    mvn clean install
+   ```
+   ```cmd
    mvn package
    ```
 
@@ -35,7 +37,9 @@ Kaiyu Chen - 20100199 - chenka@tcd.ie
 
    ```cmd
    cd trec_eval
-     make
+   ```
+   ```cmd
+   make
    ```
 
 6. Evaluate the search engine's performance using trec_eval
