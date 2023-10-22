@@ -2,7 +2,7 @@
 
 Apache Lucene Search Engine for Cranfield Collection.
 
-Kaiyu Chen - 20100199 - chenka@tcd.ie
+Kaiyu Chen - 23330889 - chenka@tcd.ie
 
 ## Usage
 
