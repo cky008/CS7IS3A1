@@ -1,0 +1,9 @@
+<archetype>
+  <id>CS7IS3A1</id>
+  <sources>
+    <source>src/tcd/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
