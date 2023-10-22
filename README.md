@@ -44,7 +44,7 @@ Kaiyu Chen - 20100199 - chenka@tcd.ie
    ./trec_eval [path_to_qrel_file] [path_to_results_file]
    ```
 
-   Here, the [path_to_qrel_file] should be **../cran/QRelsCorrectedforTRECeval,** and [path_to_results_file] should be**../output/[file_name]**. Below is a sample for usage:
+   Here, the [path_to_qrel_file] should be **../cran/QRelsCorrectedforTRECeval,** and [path_to_results_file] should be**../output/[file_name]**. Below is some sample for usage:
 
    ```cmd
    ./trec_eval ../cran/QRelsCorrectedforTRECeval ../output/output-EnglishAnalyzer–BM25.txt
@@ -63,14 +63,14 @@ Kaiyu Chen - 20100199 - chenka@tcd.ie
 
 #### Table
 
-| MAP          | Standard Analyzer | EnglishAnalyzer |
-| ------------ | ----------------- | --------------- |
-| BM25         | 0.3446            | 0.4084          |
-| Classic(VSM) | 0.1936            | 0.356           |
-| Boolean      | 0.2168            | 0.3287          |
-| LMDirichlet  | 0.3132            | 0.3246          |
-| IBS          | 0.3169            | 0.3985          |
+| MAP          | Standard Analyzer | English Analyzer |
+| ------------ | ----------------- | ---------------- |
+| BM25         | 0.3511            | 0.4155           |
+| Classic(VSM) | 0.201             | 0.3634           |
+| Boolean      | 0.2238            | 0.3365           |
+| LMDirichlet  | 0.32              | 0.3316           |
+| IBS          | 0.3243            | 0.4053           |
 
 #### Figure
 
-![MAP for different Similarities with Standard & English Analyzer](./assets/CleanShot%202023-10-22%20at%2004.23.46.png)
+![MAP for different Similarities with Standard & English Analyzer](./assets/CleanShot%202023-10-22%20at%2004.48.01.png)
