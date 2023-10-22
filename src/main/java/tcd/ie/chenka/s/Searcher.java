@@ -1,5 +1,6 @@
 package tcd.ie.chenka.s;
 
+import tcd.ie.chenka.s.cEnum.SimilarityType;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
@@ -12,7 +13,6 @@ import org.apache.lucene.store.FSDirectory;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.nio.file.Paths;
-import tcd.ie.chenka.s.cEnum.SimilarityType;
 
 public class Searcher {
     private static final String INDEX_DIR = "lucene_index";

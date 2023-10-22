@@ -1,9 +1,9 @@
 package tcd.ie.chenka.s.cEnum;
 
+import tcd.ie.chenka.s.Searcher;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import tcd.ie.chenka.s.Searcher;
 
 public enum AnalyzerType {
     STANDARD(1, new StandardAnalyzer(), "StandardAnalyzer–"),
