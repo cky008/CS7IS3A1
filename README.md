@@ -44,7 +44,7 @@ Kaiyu Chen - 20100199 - chenka@tcd.ie
    ./trec_eval [path_to_qrel_file] [path_to_results_file]
    ```
 
-   Here, the [path_to_qrel_file] should be **../cran/QRelsCorrectedforTRECeval,** and [path_to_results_file] should be **../output/[file_name]**. Below is some sample for usage:
+   Here, the [path_to_qrel_file] should be **../cran/QRelsCorrectedforTRECeval,** and [path_to_results_file] should be **../output/[results_file]**. Below is some sample for usage:
 
    ```cmd
    ./trec_eval ../cran/QRelsCorrectedforTRECeval ../output/output-EnglishAnalyzer–BM25.txt
