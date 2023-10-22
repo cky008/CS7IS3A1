@@ -35,7 +35,7 @@ public class Searcher {
                 while ((queryStr = CranProcessor.extractNextQuery(queryReader)) != null && !queryStr.isEmpty()) {
                     queryNumber++;
                     Query query = queryParser.parse(QueryParser.escape(queryStr));
-                    ScoreDoc[] hits = searcher.search(query, 50).scoreDocs;
+                    ScoreDoc[] hits = searcher.search(query, 100).scoreDocs;
                     CranProcessor.writeSearchResult(queryWriter, queryNumber, hits, searcher);
                 }
 
