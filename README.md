@@ -78,3 +78,7 @@ Kaiyu Chen - 20100199 - chenka@tcd.ie
 #### Figure
 
 ![MAP for different Similarities with Standard & English Analyzer](./assets/CleanShot%202023-10-22%20at%2004.48.01.png)
+
+#### Output
+
+![Output Example](./assets/CleanShot%202023-10-22%20at%2004.58.46@2x.png)
